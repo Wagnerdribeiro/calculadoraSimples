@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css"rel="stylesheet">
+    <title>Calculadora Simples</title>
+</head>
+<div class="fundo">
+    <h1>Calculadora</h1>
+    
+
+<div class="container">
+    
+  <input type="text" class="visor" id="visor">
+  
+</div>                            
+<div  class="button">
+  <input type="button" id="resultado" value="C" onclick="limpar('C');">
+  <input type="button" id="resultado" value="<" onclick="apagar();">
+  <input type="button" id="resultado" value="/" onclick="preencher('/');">
+  <input type="button" id="resultado" value="X" onclick="preencher('*');">
+</div>
+<div class="button1">
+  <input type="button" id="resultado" value="7" onclick="preencher(7);">
+  <input type="button" id="resultado" value="8" onclick="preencher(8);">
+  <input type="button" id="resultado" value="9" onclick="preencher(9);">
+  <input type="button" id="resultado" value="-" onclick="preencher('-');">
+  </div>
+  <div class="button2">
+  <input type="button" id="resultado" value="4" onclick="preencher(4);">
+  <input type="button" id="resultado" value="5" onclick="preencher(5);">
+  <input type="button" id="resultado" value="6" onclick="preencher(6);">
+  <input type="button" id="resultado" value="+" onclick="preencher('+');">
+
+</div>
+<div class="button3">
+  <input type="button" id="resultado" value="1" onclick="preencher(1);">
+  <input type="button" id="resultado" value="2" onclick="preencher(2);">
+  <input type="button" id="resultado" value="3" onclick="preencher(3);">
+  <input type="button" id="resultado" value="=" onclick="calcular('=');">
+  </div>
+</body>
+<script type="text/javascript" src="main.js"></script>
+
+</html>
